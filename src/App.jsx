@@ -1,8 +1,9 @@
 import { useState } from "react"
 import FlashcardList from "./FlashcardList"
+import "./App.css"
 
 function App() {
-  const [flashcard, setFlashcar] = useState(SAMPLE_DATA)
+  const [flashcard, setFlashcard] = useState(SAMPLE_DATA)
 
   return (
     <FlashcardList flashcards={flashcard}/>
